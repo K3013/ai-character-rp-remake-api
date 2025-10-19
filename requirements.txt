@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+google-genai               # client Gemini Developer API (ai.google.dev genai)
+diffusers[torch]           # Hugging Face diffusers (image gen)
+transformers
+accelerate
+safetensors
+torch                      # ou torch-cpu si pas de GPU
+llama-cpp-python           # wrapper Python pour llama.cpp (optionnel, ou utiliser llama.cpp client)
+Pillow
+numpy
+faiss-cpu                 # ou faiss-gpu si tu as GPU CUDA pour vector DB
